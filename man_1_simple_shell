@@ -1,0 +1,81 @@
+.\" Manpage for Simple Shell.
+.\" Contact Mohamed or Andrew to correct errors or typos.
+.TH "Simple Shell" 1 "April 2020" "1.0" "Simple Shell man page"
+
+.SH NAME
+hsh - Simple Shell Program
+
+.SH SYNOPSIS
+hsh (does not support arguments)
+
+.SH DESCRIPTION
+Welcome to the Simple Shell project! This program is a simple shell that can be compiled and launched from the command line within Linux. It contains the most basic features and functions found in the various shell programs.
+
+.SH OVERVIEW
+The Simple Shell project is a major team project conducted by Mohamed Ladhari and Andrew Godwin, students at Holberton Software School, for educational purposes. It consists of developing and makng our own clone of the shell found in several versions of Linux. The goal for us was to learn and develop various team and individual skills regarding coding, collaboration and git.
+
+.SH RETURN VALUE
+The shell returns the error code given by the last completed command followed by either ctrl-d or exit with no status code.
+
+.SH SYNTAX
+$ <command> <flags or options> <argument 1> <argument 2> ...
+OR NON-INTERACTIVE MODE:
+$ <command> | ./hsh
+.SS
+Interactive mode:
+
+.SS
+EXAMPLE 1:
+$ /bin/ls
+.SS
+EXAMPLE 2:
+$ ls -l
+.SS
+EXAMPLE 3:
+$ cat textfile
+.SS
+Non-interactive mode:
+
+.SS
+EXAMPLE 1:
+$ echo "ls -l" | ./hsh
+
+.SH BUILTIN COMMANDS
+.SS alias
+- create or list an alias
+
+.SS cd
+- change directory
+
+.SS env
+- list the current environment variables
+
+.SS exit
+- exit the shell
+
+.SS help
+- display help for a builtin command
+
+.SS history
+- display the command history for the current shell session
+
+.SS setenv
+- sets and environment variable
+
+.SS unsetenv
+- unsets an environment variable
+
+.SH SEE ALSO
+DASH(1)
+
+.SH BUGS
+No known bugs
+
+.SH AUTHORS
+Andrew Godwin
+    andrew.godwin@holbertonschool.com
+    https://github.com/pasignature
+
+Mohamed Ladhari
+	ladh.mouhamed@holbertonschool.com
+	https://github.com/m5235
