@@ -53,6 +53,8 @@ dkms.conf
 
 # Ignore files with no extensions
 !*.
+* *
+**
 
 # Emacs automatically created backup files
 *~
