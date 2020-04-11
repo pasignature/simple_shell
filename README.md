@@ -21,7 +21,7 @@ $ make all
 ```
 3. Execute the shell.
 ```
-$ ./ma_shell
+$ ./hsh
 ```
 Note: You can also run this shell in non-interactive mode, by simply piping your desired commands into the shell executable.
 
