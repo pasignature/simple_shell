@@ -65,3 +65,6 @@ tramp
 *
 !/**/
 !*.*
+
+# Ignore the test directory
+test/
