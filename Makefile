@@ -34,7 +34,6 @@ run:
 clean:
 	@echo "Pls wait while cleaning up garbages..."
 	$(REMOVE)
-
 cleanall:
 	@echo "Pls wait while cleaning up garbages ALL directories..."
 	$(REMOVE)
