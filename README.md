@@ -34,5 +34,5 @@ Note: You can also run this shell in non-interactive mode, by simply piping your
     https://github.com/pasignature
 
 ### Mohamed Ladhari
-    ladh.mouhamed@holbertonschool.com
+    ladh.mohamed@holbertonschool.com
     https://github.com/m5235
