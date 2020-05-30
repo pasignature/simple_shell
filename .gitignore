@@ -51,6 +51,14 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+<<<<<<< HEAD
+=======
+# Ignore files with no extensions
+!*.
+* *
+**
+
+>>>>>>> c502d1ca1bbb50764c4827eda574ac59dee7ee91
 # Emacs automatically created backup files
 *~
 \#*\#
