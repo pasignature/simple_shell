@@ -1,4 +1,4 @@
-# Simple Shell Project - Holberton Software School.
+# Simple Shell Project - Holberton Software Engineering School.
 
 ### Project details
 -----
