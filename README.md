@@ -1,7 +1,7 @@
 # Simple Shell Project - Holberton Software Engineering School.
 
 ### Project details
------
+------
 Simple Shell is a program that can be launched from the command line within any number of Linux versions. It contains the most basic features and functions found in the various shell programs on UNIX-like operating systems e.g. Linux.
 
 ### Background
